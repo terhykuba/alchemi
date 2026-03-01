@@ -1,0 +1,948 @@
+.jaldi-regular {
+    font-family: "Jaldi", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.jaldi-bold {
+    font-family: "Jaldi", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+html {
+    width: 100%;
+}
+
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+
+body {
+    width: 100%;
+    margin: 0;
+    background-color: #FFF;
+}
+
+a {
+    cursor: pointer;
+    color: black;
+    text-decoration: none;
+}
+
+
+.header {
+    width: 100%;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 1000;
+    padding: 0 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+.header-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+}
+
+.header-left-logo {
+    display: block;
+}
+
+.header-right-nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+}
+
+.logo {
+    width: 120px;
+    /* Adjust size for small screens */
+    height: auto;
+}
+
+.header-right-nav li {
+    font-family: "Jaldi", sans-serif;
+    margin-right: 35px;
+    font-size: 19px;
+    display: block;
+}
+
+.hamburger-menu {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+}
+
+.front-page {
+    display: flex;
+    width: 100%;
+    margin-top: 62px;
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.h1-front-div {
+    min-width: 700px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.267);
+}
+
+.h1-front {
+    position: static;
+    z-index: 1;
+    color: white;
+    font-family: Jaldi;
+    text-align: center;
+    font-size: 60px;
+
+}
+
+
+.h1-front:first-child {
+    margin-bottom: 0;
+}
+
+
+.h1-front:last-child {
+    margin-top: 0;
+}
+
+.background-img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+    left: 0;
+    margin-bottom: 1px;
+}
+
+
+.footer {
+    position: relative;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(36, 36, 36);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.copyright {
+    color: rgb(187, 187, 187);
+}
+
+
+
+.event-main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: static;
+    margin-top: 220px;
+    margin-bottom: 25px;
+    max-width: 1000px;
+    background-color: white;
+    border-radius: 30px;
+    padding: 40px 20px;
+
+}
+
+.event-o {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: static;
+    margin-top: 300px;
+    margin-bottom: 25px;
+    max-width: 1000px;
+    background-color: white;
+    border-radius: 30px;
+    padding: 40px 20px;
+
+}
+
+
+.event-h-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: static;
+    margin-top: 300px;
+    margin-bottom: 25px;
+    max-width: 1000px;
+    max-height: 25w0px;
+    background-color: white;
+    border-radius: 30px;
+
+
+}
+
+.event-h {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: static;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    max-width: 1000px;
+    max-height: 25w0px;
+    background-color: white;
+    border-radius: 30px;
+
+
+}
+
+
+.event-f {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: static;
+    margin-top: 0px;
+    margin-bottom: 25px;
+    max-width: 1000px;
+    background-color: white;
+    border-radius: 30px;
+    padding: 40px 20px;
+
+}
+
+
+.event {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: static;
+    margin-top: 150px;
+    margin-bottom: 25px;
+    max-width: 1000px;
+    background-color: white;
+    border-radius: 30px;
+    padding: 40px 20px;
+
+}
+
+.event-p {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: static;
+    margin-top: 10px;
+    max-width: 1000px;
+    background-color: white;
+    border-radius: 30px;
+    padding: 40px 20px;
+
+}
+
+.event-k {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: static;
+    margin-top: 300px;
+    max-width: 1000px;
+    background-color: white;
+    border-radius: 30px;
+    padding: 40px 20px;
+
+}
+
+.event-pp {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: static;
+    margin-top: 170px;
+    max-width: 1000px;
+    background-color: white;
+    border-radius: 30px;
+    padding: 40px 20px;
+
+}
+
+.img-event-l {
+    max-height: 650px;
+    max-width: 450px;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.img-event-r {
+    max-height: 650px;
+    max-width: 450px;
+    object-fit: cover;
+    margin-left: 10px;
+}
+
+.img-event-l-h {
+    height: 280px;
+    width: 450px;
+    object-fit: cover;
+    margin-right: 10px;
+    object-position: 0 -100px;
+    /* Change this line */
+}
+
+.img-event-r-h {
+    height: 280px;
+    width: 450px;
+    object-fit: cover;
+    margin-left: 10px;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.event-p-text {
+    font-family: Jaldi;
+    margin-left: 25px;
+    max-width: 450px;
+}
+
+
+.event-r-text {
+    font-family: Jaldi;
+    margin-left: 10px;
+    min-width: 300px;
+    max-width: 500px;
+}
+
+.event-l-text {
+    font-family: Jaldi;
+    margin-right: 10px;
+    min-width: 300px;
+    max-width: 500px;
+}
+
+.event-text-h3 {
+    font-size: 35px;
+    margin-top: 0;
+    padding-top: 0;
+    text-align: center;
+    /* Ensure header text is centered */
+}
+
+.event-text-p {
+    font-size: 18px;
+    margin: 0 3rem;
+
+}
+
+.event-text-p-p {
+    font-size: 18px;
+    margin: 0 3rem;
+    margin-bottom: 20px;
+
+}
+
+.event-text-p-spzl {
+    font-size: 20px;
+    color: rgb(146, 48, 97);
+    font-weight: 800;
+}
+
+
+.introduction {
+    margin-top: 200px;
+    max-width: 1000px;
+    border: solid 3px #D5D5D5;
+}
+
+.introduction p {
+    font-size: 20px;
+    font-family: jaldi;
+    text-align: center;
+}
+
+.main-menu {
+    background-color: white;
+    max-width: 1140px;
+    margin-top: 30px;
+    border-radius: 30px;
+    height: 300px;
+    margin-bottom: 70px;
+}
+
+.main-menu-inner {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0px;
+    font-family: jaldi;
+    align-items: center;
+}
+
+.main-menu-inner p {
+    font-size: 20px;
+    text-align: center;
+}
+
+.main-menu-element-a {
+    font-size: 35px;
+    text-align: center;
+}
+
+.main-menu img {
+    height: 50px;
+    object-fit: contain;
+}
+
+.main-menu-element {
+
+    width: 250px;
+    padding: 50px 0 10px;
+    margin: 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 260px;
+}
+
+.rewiev {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    /* Allow the height to adjust dynamically */
+    padding: 20px;
+    background-color: #F2F2F2;
+    box-sizing: border-box;
+    /* Include padding in total width/height */
+}
+
+.rewiev p {
+    font-family: jaldi;
+    max-width: 460px;
+    text-align: center;
+}
+
+.rewiev-p {
+    font-size: 20px;
+}
+
+.rewiev-h1 {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.rewiev-h2 {
+    font-size: 12px;
+    margin-top: 0;
+}
+
+.rewiev h1 {
+    font-family: jaldi;
+    text-align: center;
+    font-size: 50px;
+}
+
+.rewiev-collum {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* Ensure items wrap on smaller screens */
+    justify-content: center;
+    /* Center the items */
+    gap: 20px;
+    /* Add space between columns */
+    margin: 0;
+}
+
+
+.rewiev-cell {
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+}
+
+.rewiev-content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.contact-button {
+    color: grey;
+    border-radius: 100px;
+    border: solid;
+    border-width: 2px;
+    padding: 5px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 80px;
+}
+
+.contact-button:hover {
+    background-color: #1D96A1;
+    color: white;
+    border: #1D96A1;
+    transition: color 1s, border 1s;
+}
+
+.contact-me {
+    background-color: #1D96A1;
+    color: white;
+    font-family: jaldi;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+.contact-me h1 {
+    font-size: 40px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.contact-me p {
+    max-width: 400px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.contact-me-button {
+    color: white;
+    border-radius: 100px;
+    border: solid;
+    border-width: 3px;
+    padding: 14px 35px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.contact-me-button:hover {
+    background-color: grey;
+    border: grey;
+    transition: background-color 1s, border 1s;
+}
+
+.kontakt-h h1 {
+    font-family: jaldi;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 400;
+}
+
+.hamburger-menu {
+    display: none;
+    /* Hidden by default */
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    z-index: 1002;
+    /* Ensure it is above the sliding menu */
+}
+
+.hamburger-icon {
+    width: 30px;
+    /* Adjust size as needed */
+    height: 30px;
+}
+
+/* Sliding menu styles */
+.sliding-menu {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    /* Initially hidden off-screen */
+    width: 80%;
+    /* Covers 80% of the viewport width */
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Half-transparent black background */
+    transition: right 0.3s ease-in-out;
+    z-index: 1001;
+    overflow-y: auto;
+    /* Enable scrolling if needed */
+}
+
+
+/* Close button styling */
+.close-menu {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    z-index: 1002;
+}
+
+.close-icon {
+    width: 30px;
+    /* Adjust size as needed */
+    height: 30px;
+    object-fit: contain;
+    /* Ensures the image scales nicely */
+}
+
+.sliding-menu.active {
+    right: 0;
+    /* Slide in from the left */
+}
+
+.menu-nav ul {
+    list-style: none;
+    padding: 20px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    /* Add spacing between items */
+}
+
+.menu-nav li a {
+    text-decoration: none;
+    font-family: "Jaldi", sans-serif;
+    font-size: 20px;
+    color: white;
+}
+
+/* Base styles remain the same as your original CSS */
+
+/* Responsive Design */
+@media (max-width: 1200px) {
+    .header-inner {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .logo {
+        width: 90px;
+    }
+
+    .header-right-nav li {
+        font-size: 17px;
+        margin-right: 20px;
+    }
+
+    .h1-front {
+        font-size: 45px;
+    }
+
+    .main-menu-inner p {
+        font-size: 18px;
+    }
+
+    .main-menu-element-a {
+        font-size: 30px;
+    }
+
+    .img-event-l,
+    .img-event-r {
+        height: 550px;
+        width: 400px;
+    }
+
+    .event-main,
+    .event-f,
+    .event-o,
+    .event {
+        margin-top: 150px;
+        max-width: 800px;
+        padding: 30px 10px;
+    }
+
+    .event-text-h3 {
+        font-size: 30px;
+    }
+
+    .event-text-p {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 768px) {
+
+
+    .header-right-nav ul {
+        flex-direction: column;
+    }
+
+    .header-right-nav li {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+
+    .hamburger-menu {
+        display: block;
+        /* Show the hamburger button */
+    }
+
+
+    .header-right-nav {
+        display: none;
+    }
+
+
+    .front-page {
+        flex-direction: column;
+        height: 400px;
+    }
+
+    .h1-front-div {
+        min-width: 400px;
+    }
+
+    .h1-front {
+        font-size: 35px;
+    }
+
+    .img-event-l,
+    .img-event-r {
+        height: 400px;
+        width: 300px;
+    }
+
+    .event-h {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    .event-main {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-top: 300px;
+    }
+
+    .event-f,
+    .event-o,
+    .event,
+    .event-h-1,
+    .event-p {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .event-r-text,
+    .event-l-text {
+        margin: 0;
+    }
+
+    .main-menu {
+        width: 100%;
+        margin-top: 20px;
+        height: auto;
+    }
+
+    .main-menu-inner {
+        flex-direction: column;
+    }
+
+    .main-menu-element {
+        margin: 20px 0;
+    }
+
+    .rewiev-collum {
+        flex-direction: column;
+        /* Stack items vertically */
+        align-items: center;
+        /* Center items */
+        margin: 0;
+        padding: 0 10px;
+        /* Add padding for small screens */
+    }
+
+    .rewiev-cell {
+        width: 100%;
+        /* Ensure it takes full width on smaller screens */
+        margin-bottom: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .rewiev h1 {
+        font-size: 24px;
+        /* Reduce header size */
+        margin-bottom: 20px;
+    }
+
+    .rewiev p {
+        font-size: 16px;
+        /* Reduce paragraph text size */
+    }
+
+
+    .contact-button {
+        margin: 0;
+    }
+
+    .introduction {
+        margin-top: 300px;
+    }
+
+    .contact-me {
+        text-align: center;
+        height: auto;
+        padding: 20px;
+    }
+
+    .contact-me p {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .header-inner {
+        padding: 0 20px;
+    }
+
+    .hamburger-icon {
+        width: 20px;
+        height: 20px;
+    }
+
+    .menu-nav ul {
+        gap: 10px;
+        /* Reduce spacing for better fit */
+    }
+
+    .menu-nav li a {
+        font-size: 16px;
+        /* Smaller text for better fit */
+    }
+
+    .close-icon {
+        width: 18px;
+        height: 18px;
+    }
+
+    .event-p {
+        align-items: center;
+    }
+
+    .header-inner {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .logo {
+        width: 70px;
+    }
+
+    .h1-front {
+        font-size: 25px;
+    }
+
+    .h1-front-div {
+        min-width: 300px;
+    }
+
+
+    .event-text-h3 {
+        font-size: 24px;
+    }
+
+    .event-text-p {
+        font-size: 16px;
+    }
+
+    .img-event-l,
+    .img-event-r {
+        height: 300px;
+        width: 200px;
+    }
+
+    .rewiev h1 {
+        font-size: 30px;
+    }
+
+    .rewiev-p {
+        font-size: 16px;
+    }
+
+    .rewiev-h1 {
+        font-size: 18px;
+    }
+
+    .introduction p {
+        font-size: 16px;
+    }
+
+    .rewiev-h2 {
+        font-size: 10px;
+    }
+
+    .contact-me h1 {
+        font-size: 25px;
+    }
+
+    .contact-me p {
+        font-size: 16px;
+        max-height: 50px;
+    }
+
+    .contact-me-button {
+        font-size: 16px;
+        padding: 10px 20px;
+    }
+
+    .contact-button {
+        font-size: 16px;
+        align-items: center;
+        margin: 0;
+    }
+
+    .header {
+        width: 100%;
+        border-radius: 0;
+        margin: none;
+        top: 0;
+        padding: auto;
+    }
+
+    header {
+        width: 100%;
+        border-radius: 0;
+        margin: none;
+        top: 0;
+        padding: auto;
+    }
+
+    .header-inner {
+        width: 100%;
+        border-radius: 0;
+        margin: 0;
+        padding: auto;
+    }
+
+    .contact-me {
+        padding: 0;
+    }
+}
